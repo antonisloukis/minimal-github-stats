@@ -1,0 +1,109 @@
+name: Feature request
+description: Suggest an improvement to the generator, design, configuration, automation, or documentation.
+title: "[Feature]: "
+labels:
+  - enhancement
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an improvement.
+
+        Minimal GitHub Stats aims to remain lightweight, minimal, beginner-friendly, and independent of external card services.
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Feature category
+      description: Which part of the project would this improve?
+      options:
+        - Statistics
+        - Languages
+        - Contribution streaks
+        - SVG design
+        - Themes and colors
+        - Configuration
+        - GitHub Actions
+        - Documentation
+        - Accessibility
+        - Developer experience
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or limitation
+      description: What problem would this feature solve?
+      placeholder: Explain the current limitation or difficulty.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe how you think the feature should work.
+      placeholder: Explain the expected behavior and user experience.
+    validations:
+      required: true
+
+  - type: textarea
+    id: example
+    attributes:
+      label: Example configuration or output
+      description: Include an example when useful.
+      placeholder: |
+        Example config:
+
+        "layout": "compact"
+
+        Or drag and drop a design mockup.
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Are there other ways to solve this problem?
+      placeholder: Describe other approaches you considered.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: complexity
+    attributes:
+      label: Expected impact on simplicity
+      description: How much complexity might this feature add?
+      options:
+        - Very small
+        - Small
+        - Moderate
+        - Large
+        - Unsure
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: principles
+    attributes:
+      label: Project principles
+      options:
+        - label: This feature can work without an externally hosted statistics-card service.
+          required: true
+        - label: This feature can remain understandable for beginners.
+          required: true
+        - label: I searched existing issues and requests before submitting this.
+          required: true
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I may be willing to implement this feature.
+          required: false

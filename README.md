@@ -6,7 +6,8 @@
 
 No external statistics service. No server. No personal access token required.
 
-[![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Tests](https://github.com/antonisloukis/minimal-github-stats/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/antonisloukis/minimal-github-stats/actions/workflows/tests.yml)
+[![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.13-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-Automated-2088FF?logo=github-actions&logoColor=white)](https://github.com/features/actions)
 [![License](https://img.shields.io/badge/License-MIT-2ea44f)](LICENSE)
 

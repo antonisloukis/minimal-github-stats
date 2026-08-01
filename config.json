@@ -1,0 +1,25 @@
+{
+  "username": "",
+  "output_path": "assets/github-stats.svg",
+  "max_languages": 6,
+  "exclude_languages": [],
+  "theme": {
+    "background": "#0d1117",
+    "accent": "#58a6ff",
+    "text": "#e6edf3",
+    "muted": "#8b949e",
+    "divider": "#21262d"
+  },
+  "labels": {
+    "stats_title": "GitHub Stats",
+    "languages_title": "Most Used Languages",
+    "stars": "Total Stars Earned",
+    "commits": "Total Commits",
+    "pull_requests": "Total PRs",
+    "issues": "Total Issues",
+    "contributions_year": "Contributed (this year)",
+    "total_contributions": "Total contributions",
+    "current_streak": "Current streak",
+    "longest_streak": "Longest streak"
+  }
+}

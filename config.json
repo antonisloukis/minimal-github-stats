@@ -1,5 +1,4 @@
 {
-  "username": "",
   "output_path": "assets/github-stats.svg",
   "max_languages": 6,
   "exclude_languages": [],

@@ -1,0 +1,622 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1000"
+  height="340"
+  viewBox="0 0 1000 340"
+  role="img"
+  aria-labelledby="title description"
+  data-fingerprint="263bd9dfa99df5fd545465a6e4b6e1e63ef41e8ad214e97b3af743f42ea5a578">
+
+  <title id="title">
+    antonisloukis GitHub statistics
+  </title>
+
+  <desc id="description">
+    Automatically generated GitHub statistics,
+    language usage and contribution streaks.
+  </desc>
+
+  <defs>
+    <clipPath id="language-bar-clip">
+      <rect
+        x="535"
+        y="98"
+        width="405"
+        height="7"
+        rx="3.5"
+      />
+    </clipPath>
+  </defs>
+
+  <style>
+    .section-title {
+      font:
+        400 18px
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+      fill: #58a6ff;
+    }
+
+    .stat-label,
+    .stat-value {
+      font:
+        700 14px
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+      fill: #e6edf3;
+    }
+
+    .legend-label {
+      font:
+        400 12px
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+      fill: #e6edf3;
+    }
+
+    .legend-value {
+      font:
+        700 12px
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+      fill: #e6edf3;
+    }
+
+    .metric-number {
+      font:
+        700 24px
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+      fill: #58a6ff;
+    }
+
+    .metric-label {
+      font:
+        600 13px
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+      fill: #e6edf3;
+    }
+
+    .updated {
+      font:
+        400 11px
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+      fill: #8b949e;
+    }
+  </style>
+
+  <rect
+    width="1000"
+    height="340"
+    rx="16"
+    fill="#0d1117"
+  />
+
+  <text
+    x="35"
+    y="56"
+    class="section-title">
+    GitHub Stats
+  </text>
+
+  <text
+    x="535"
+    y="56"
+    class="section-title">
+    Most Used Languages
+  </text>
+
+  <line
+    x1="500"
+    y1="34"
+    x2="500"
+    y2="218"
+    stroke="#21262d"
+    stroke-width="1"
+  />
+
+  
+    
+    <g
+      transform="translate(34,71) scale(1.0)"
+      fill="none"
+      stroke="#58a6ff"
+      color="#58a6ff"
+      stroke-width="1.9"
+      stroke-linecap="round"
+      stroke-linejoin="round">
+
+      
+      <path
+        d="
+          M12 2.5
+          l2.8 5.7
+          6.2.9
+          -4.5 4.4
+          1.1 6.2
+          L12 16.8
+          6.4 19.7
+          l1.1-6.2
+          L3 9.1
+          l6.2-.9
+          L12 2.5
+          z
+        "
+      />
+    
+
+    </g>
+    
+
+    <text
+      x="72"
+      y="92"
+      class="stat-label">
+      Total Stars Earned:
+    </text>
+
+    <text
+      x="455"
+      y="92"
+      text-anchor="end"
+      class="stat-value">
+      10
+    </text>
+    
+
+    
+    <g
+      transform="translate(34,99) scale(1.0)"
+      fill="none"
+      stroke="#58a6ff"
+      color="#58a6ff"
+      stroke-width="1.9"
+      stroke-linecap="round"
+      stroke-linejoin="round">
+
+      
+      <path
+        d="
+          M12 4
+          a8 8 0 1 1-5.7 2.3
+        "
+      />
+
+      <path
+        d="
+          M4.2 3.8
+          H8
+          v3.8
+        "
+      />
+    
+
+    </g>
+    
+
+    <text
+      x="72"
+      y="120"
+      class="stat-label">
+      Total Commits:
+    </text>
+
+    <text
+      x="455"
+      y="120"
+      text-anchor="end"
+      class="stat-value">
+      208
+    </text>
+    
+
+    
+    <g
+      transform="translate(34,127) scale(1.0)"
+      fill="none"
+      stroke="#58a6ff"
+      color="#58a6ff"
+      stroke-width="1.9"
+      stroke-linecap="round"
+      stroke-linejoin="round">
+
+      
+      <circle cx="7" cy="5" r="2"/>
+      <circle cx="17" cy="19" r="2"/>
+      <circle cx="17" cy="5" r="2"/>
+
+      <path
+        d="
+          M7 7
+          v10
+          a2 2 0 0 0 2 2
+          h6
+        "
+      />
+
+      <path
+        d="
+          M15 5
+          h-4
+          a2 2 0 0 0-2 2
+          v2
+        "
+      />
+    
+
+    </g>
+    
+
+    <text
+      x="72"
+      y="148"
+      class="stat-label">
+      Total PRs:
+    </text>
+
+    <text
+      x="455"
+      y="148"
+      text-anchor="end"
+      class="stat-value">
+      5
+    </text>
+    
+
+    
+    <g
+      transform="translate(34,155) scale(1.0)"
+      fill="none"
+      stroke="#58a6ff"
+      color="#58a6ff"
+      stroke-width="1.9"
+      stroke-linecap="round"
+      stroke-linejoin="round">
+
+      
+      <circle cx="12" cy="12" r="8"/>
+
+      <path
+        d="
+          M12 7.5
+          v5
+        "
+      />
+
+      <circle
+        cx="12"
+        cy="15.8"
+        r="1"
+        fill="currentColor"
+        stroke="none"
+      />
+    
+
+    </g>
+    
+
+    <text
+      x="72"
+      y="176"
+      class="stat-label">
+      Total Issues:
+    </text>
+
+    <text
+      x="455"
+      y="176"
+      text-anchor="end"
+      class="stat-value">
+      0
+    </text>
+    
+
+    
+    <g
+      transform="translate(34,183) scale(1.0)"
+      fill="none"
+      stroke="#58a6ff"
+      color="#58a6ff"
+      stroke-width="1.9"
+      stroke-linecap="round"
+      stroke-linejoin="round">
+
+      
+      <rect
+        x="4"
+        y="6"
+        width="16"
+        height="14"
+        rx="1.8"
+      />
+
+      <path
+        d="
+          M4 10
+          h16
+
+          M8 3.8
+          v4
+
+          M16 3.8
+          v4
+        "
+      />
+    
+
+    </g>
+    
+
+    <text
+      x="72"
+      y="204"
+      class="stat-label">
+      Contributed (this year):
+    </text>
+
+    <text
+      x="455"
+      y="204"
+      text-anchor="end"
+      class="stat-value">
+      220
+    </text>
+    
+
+  <rect
+    x="535"
+    y="98"
+    width="405"
+    height="7"
+    rx="3.5"
+    fill="#21262d"
+  />
+
+  <g clip-path="url(#language-bar-clip)">
+    
+            <rect
+              x="535.00"
+              y="98"
+              width="405.00"
+              height="7"
+              fill="#3572A5"
+            />
+            
+  </g>
+
+  
+            <circle
+              cx="540"
+              cy="127"
+              r="4"
+              fill="#3572A5"
+            />
+
+            <text
+              x="552"
+              y="132"
+              class="legend-label">
+              Python
+            </text>
+
+            <text
+              x="710"
+              y="132"
+              text-anchor="end"
+              class="legend-value">
+              100.0%
+            </text>
+            
+
+  <line
+    x1="333"
+    y1="232"
+    x2="333"
+    y2="315"
+    stroke="#21262d"
+    stroke-width="1"
+  />
+
+  <line
+    x1="667"
+    y1="232"
+    x2="667"
+    y2="315"
+    stroke="#21262d"
+    stroke-width="1"
+  />
+
+  
+    <g
+      transform="translate(149,226) scale(1.5)"
+      fill="none"
+      stroke="#58a6ff"
+      color="#58a6ff"
+      stroke-width="1.9"
+      stroke-linecap="round"
+      stroke-linejoin="round">
+
+      
+      <circle cx="9" cy="9" r="2.3"/>
+      <circle cx="15" cy="9" r="2.3"/>
+
+      <path
+        d="
+          M5.5 18
+          c.8-2.6 2.6-4 5.5-4
+          s4.7 1.4 5.5 4
+        "
+      />
+
+      <path
+        d="
+          M2.8 18
+          c.6-1.8 1.7-2.8 3.2-3.3
+
+          M21.2 18
+          c-.6-1.8-1.7-2.8-3.2-3.3
+        "
+      />
+    
+
+    </g>
+    
+
+  <text
+    x="167"
+    y="278"
+    text-anchor="middle"
+    class="metric-number">
+    220
+  </text>
+
+  <text
+    x="167"
+    y="307"
+    text-anchor="middle"
+    class="metric-label">
+    Total contributions
+  </text>
+
+  
+    <g
+      transform="translate(482,226) scale(1.5)"
+      fill="none"
+      stroke="#58a6ff"
+      color="#58a6ff"
+      stroke-width="1.9"
+      stroke-linecap="round"
+      stroke-linejoin="round">
+
+      
+      <path
+        d="
+          M12 3.5
+          c1.5 2.3 3.8 4 3.8 7.1
+
+          A3.8 3.8 0 1 1 8.2 11
+
+          c0-1.9 1-3.4 2.4-4.8
+
+          .2 1.6.9 2.7 1.4 3.2
+
+          .8-1.1 1-2.7 0-5.9
+          z
+        "
+      />
+    
+
+    </g>
+    
+
+  <text
+    x="500"
+    y="278"
+    text-anchor="middle"
+    class="metric-number">
+    5
+  </text>
+
+  <text
+    x="500"
+    y="307"
+    text-anchor="middle"
+    class="metric-label">
+    Current streak
+  </text>
+
+  
+    <g
+      transform="translate(816,226) scale(1.5)"
+      fill="none"
+      stroke="#58a6ff"
+      color="#58a6ff"
+      stroke-width="1.9"
+      stroke-linecap="round"
+      stroke-linejoin="round">
+
+      
+      <path
+        d="
+          M8 5
+          h8
+          v3
+          a4 4 0 0 1-8 0
+          V5
+          z
+        "
+      />
+
+      <path
+        d="
+          M6 6
+          H4
+          a2 2 0 0 0 2 3
+
+          M18 6
+          h2
+          a2 2 0 0 1-2 3
+        "
+      />
+
+      <path
+        d="
+          M12 12
+          v4
+
+          M9 20
+          h6
+        "
+      />
+    
+
+    </g>
+    
+
+  <text
+    x="834"
+    y="278"
+    text-anchor="middle"
+    class="metric-number">
+    7
+  </text>
+
+  <text
+    x="834"
+    y="307"
+    text-anchor="middle"
+    class="metric-label">
+    Longest streak
+  </text>
+
+  <text
+    x="950"
+    y="327"
+    text-anchor="end"
+    class="updated">
+    Updated 2026-08-01 22:06 UTC
+  </text>
+</svg>

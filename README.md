@@ -140,11 +140,12 @@ Most users only need to edit:
 config.json
 ```
 
+The workflow automatically detects the repository owner, so no username setup is required.
+
 Default configuration:
 
 ```json
 {
-  "username": "",
   "output_path": "assets/github-stats.svg",
   "max_languages": 6,
   "exclude_languages": [],
@@ -170,21 +171,6 @@ Default configuration:
 }
 ```
 
-### Username
-
-The default value is intentionally empty:
-
-```json
-"username": ""
-```
-
-When empty, GitHub Actions automatically uses the owner of the repository.
-
-To display statistics for another account, enter its username manually:
-
-```json
-"username": "octocat"
-```
 
 ### Number of languages
 

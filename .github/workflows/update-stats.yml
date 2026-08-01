@@ -1,0 +1,66 @@
+name: Update GitHub statistics
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "17 */6 * * *"
+
+  push:
+    branches:
+      - main
+    paths:
+      - "config.json"
+      - "scripts/generate_stats.py"
+      - ".github/workflows/update-stats.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: minimal-github-stats-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  update-stats:
+    name: Generate statistics SVG
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Generate statistics SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+        run: python scripts/generate_stats.py
+
+      - name: Commit updated SVG
+        shell: bash
+        run: |
+          OUTPUT_PATH="$(python -c 'import json; print(json.load(open("config.json", encoding="utf-8"))["output_path"])')"
+
+          if [[ ! -f "$OUTPUT_PATH" ]]; then
+            echo "::error::Expected SVG was not generated at $OUTPUT_PATH"
+            exit 1
+          fi
+
+          git add -- "$OUTPUT_PATH"
+
+          if git diff --cached --quiet; then
+            echo "No statistics changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git commit -m "chore: update GitHub statistics"
+          git push

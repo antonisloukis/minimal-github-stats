@@ -5,7 +5,7 @@
   viewBox="0 0 1000 340"
   role="img"
   aria-labelledby="title description"
-  data-fingerprint="3aeeab7069bb08aad2310cede78f92628ae155c977914f83b1332d75e66fafad">
+  data-fingerprint="b8aafca35d7bf3489629d207c12cb0bec07c47b0c8f8291754ccea11aef5445c">
 
   <title id="title">
     antonisloukis GitHub statistics
@@ -229,7 +229,7 @@
       y="120"
       text-anchor="end"
       class="stat-value">
-      402
+      403
     </text>
     
 
@@ -382,7 +382,7 @@
       y="204"
       text-anchor="end"
       class="stat-value">
-      466
+      468
     </text>
     
 
@@ -400,9 +400,36 @@
             <rect
               x="535.00"
               y="98"
-              width="405.00"
+              width="392.13"
               height="7"
               fill="#3572A5"
+            />
+            
+
+            <rect
+              x="927.13"
+              y="98"
+              width="10.68"
+              height="7"
+              fill="#e34c26"
+            />
+            
+
+            <rect
+              x="937.81"
+              y="98"
+              width="2.10"
+              height="7"
+              fill="#663399"
+            />
+            
+
+            <rect
+              x="939.91"
+              y="98"
+              width="1.50"
+              height="7"
+              fill="#89e051"
             />
             
   </g>
@@ -427,7 +454,76 @@
               y="132"
               text-anchor="end"
               class="legend-value">
-              100.0%
+              96.8%
+            </text>
+            
+
+            <circle
+              cx="740"
+              cy="127"
+              r="4"
+              fill="#e34c26"
+            />
+
+            <text
+              x="752"
+              y="132"
+              class="legend-label">
+              HTML
+            </text>
+
+            <text
+              x="910"
+              y="132"
+              text-anchor="end"
+              class="legend-value">
+              2.6%
+            </text>
+            
+
+            <circle
+              cx="540"
+              cy="158"
+              r="4"
+              fill="#663399"
+            />
+
+            <text
+              x="552"
+              y="163"
+              class="legend-label">
+              CSS
+            </text>
+
+            <text
+              x="710"
+              y="163"
+              text-anchor="end"
+              class="legend-value">
+              0.5%
+            </text>
+            
+
+            <circle
+              cx="740"
+              cy="158"
+              r="4"
+              fill="#89e051"
+            />
+
+            <text
+              x="752"
+              y="163"
+              class="legend-label">
+              Shell
+            </text>
+
+            <text
+              x="910"
+              y="163"
+              text-anchor="end"
+              class="legend-value">
+              0.0%
             </text>
             
 
@@ -490,7 +586,7 @@
     y="278"
     text-anchor="middle"
     class="metric-number">
-    466
+    468
   </text>
 
   <text
@@ -537,7 +633,7 @@
     y="278"
     text-anchor="middle"
     class="metric-number">
-    8
+    9
   </text>
 
   <text
@@ -617,6 +713,6 @@
     y="327"
     text-anchor="end"
     class="updated">
-    Updated 2026-08-16 18:46 UTC
+    Updated 2026-08-17 18:56 UTC
   </text>
 </svg>

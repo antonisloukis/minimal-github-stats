@@ -148,7 +148,7 @@ Default configuration:
 ```json
 {
   "output_path": "assets/github-stats.svg",
-  "max_languages": 6,
+  "max_languages": 8,
   "exclude_languages": [],
   "theme": {
     "background": "#0d1117",
@@ -175,18 +175,19 @@ Default configuration:
 
 ### Number of languages
 
-Display between one and six language entries:
+Display between one and eight language entries:
 
 ```json
-"max_languages": 6
+"max_languages": 8
 ```
 
 Supported values:
 
 ```text
-1–6
+1–8
 ```
 
+With eight entries, the language legend is displayed in two columns with four rows each.
 When more languages exist than the configured limit, the remaining languages are grouped under `Other`.
 
 ### Exclude languages

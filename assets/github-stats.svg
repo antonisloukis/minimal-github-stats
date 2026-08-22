@@ -5,7 +5,7 @@
   viewBox="0 0 1000 340"
   role="img"
   aria-labelledby="title description"
-  data-fingerprint="a1a92486fb9c3083428cfb62e797933e530383aac5e553e81d716d78a8204f43">
+  data-fingerprint="bc7d9b05d13cf98cf4d538a03142fdceb717505ff90c4cf3f64a44b7cc67e240">
 
   <title id="title">
     antonisloukis GitHub statistics
@@ -229,7 +229,7 @@
       y="120"
       text-anchor="end"
       class="stat-value">
-      406
+      408
     </text>
     
 
@@ -282,7 +282,7 @@
       y="148"
       text-anchor="end"
       class="stat-value">
-      41
+      42
     </text>
     
 
@@ -382,7 +382,7 @@
       y="204"
       text-anchor="end"
       class="stat-value">
-      471
+      474
     </text>
     
 
@@ -483,21 +483,21 @@
 
             <circle
               cx="540"
-              cy="158"
+              cy="153"
               r="4"
               fill="#663399"
             />
 
             <text
               x="552"
-              y="163"
+              y="158"
               class="legend-label">
               CSS
             </text>
 
             <text
               x="710"
-              y="163"
+              y="158"
               text-anchor="end"
               class="legend-value">
               0.5%
@@ -506,21 +506,21 @@
 
             <circle
               cx="740"
-              cy="158"
+              cy="153"
               r="4"
               fill="#89e051"
             />
 
             <text
               x="752"
-              y="163"
+              y="158"
               class="legend-label">
               Shell
             </text>
 
             <text
               x="910"
-              y="163"
+              y="158"
               text-anchor="end"
               class="legend-value">
               0.0%
@@ -586,7 +586,7 @@
     y="278"
     text-anchor="middle"
     class="metric-number">
-    471
+    474
   </text>
 
   <text
@@ -633,7 +633,7 @@
     y="278"
     text-anchor="middle"
     class="metric-number">
-    0
+    1
   </text>
 
   <text
@@ -713,6 +713,6 @@
     y="327"
     text-anchor="end"
     class="updated">
-    Updated 2026-08-21 13:10 UTC
+    Updated 2026-08-22 10:47 UTC
   </text>
 </svg>

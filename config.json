@@ -1,6 +1,6 @@
 {
   "output_path": "assets/github-stats.svg",
-  "max_languages": 6,
+  "max_languages": 8,
   "exclude_languages": [],
   "theme": {
     "background": "#0d1117",

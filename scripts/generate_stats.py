@@ -20,7 +20,7 @@ CONFIG_PATH = Path("config.json")
 DEFAULT_CONFIG: dict[str, Any] = {
     "username": "",
     "output_path": "assets/github-stats.svg",
-    "max_languages": 6,
+    "max_languages": 8,
     "exclude_languages": [],
     "theme": {
         "background": "#0d1117",
@@ -422,13 +422,13 @@ def load_config(
     ]
 
     if (
-        not isinstance(max_languages, int)
-        or isinstance(max_languages, bool)
-        or not 1 <= max_languages <= 6
+    not isinstance(max_languages, int)
+    or isinstance(max_languages, bool)
+    or not 1 <= max_languages <= 8
     ):
         raise ConfigurationError(
-            "'max_languages' must be an "
-            "integer from 1 to 6."
+        "'max_languages' must be an "
+        "integer from 1 to 8."
         )
 
     excluded = config[
@@ -1196,7 +1196,7 @@ def build_language_svg(
         legend_y = (
             bar_y
             + 34
-            + row * 31
+            + row * 26
         )
 
         legend.append(

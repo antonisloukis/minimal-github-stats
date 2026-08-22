@@ -80,6 +80,24 @@ class ConfigurationTests(unittest.TestCase):
             "",
         )
 
+    def test_eight_languages_are_allowed(
+        self,
+    ) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = self.write_config(
+                directory,
+                {
+                    "max_languages": 8,
+                },
+            )
+
+            config = generator.load_config(path)
+
+        self.assertEqual(
+            config["max_languages"],
+            8,
+        )
+
     def test_invalid_language_limit_is_rejected(
         self,
     ) -> None:
@@ -87,7 +105,7 @@ class ConfigurationTests(unittest.TestCase):
             path = self.write_config(
                 directory,
                 {
-                    "max_languages": 7,
+                    "max_languages": 9,
                 },
             )
 
@@ -413,6 +431,42 @@ class SvgTests(unittest.TestCase):
                 },
             ],
         }
+
+    def test_language_legend_supports_eight_entries(
+        self,
+    ) -> None:
+        languages = [
+            {
+                "name": f"Language {index}",
+                "percentage": 12.5,
+                "color": "#58a6ff",
+            }
+            for index in range(1, 9)
+        ]
+
+        _, legend = generator.build_language_svg(
+            languages,
+            bar_x=535,
+            bar_y=98,
+            bar_width=405,
+            bar_height=7,
+            muted="#8b949e",
+        )
+
+        self.assertEqual(
+            legend.count("<circle"),
+            8,
+        )
+
+        self.assertEqual(
+            legend.count('cx="540"'),
+            4,
+        )
+
+        self.assertEqual(
+            legend.count('cx="740"'),
+            4,
+        )
 
     def test_svg_contains_expected_metadata(
         self,

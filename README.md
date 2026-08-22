@@ -413,35 +413,6 @@ Recommended widths:
 90%  — compact
 ```
 
-## Security
-
-- Never commit a personal access token.
-- Use the automatically provided `GITHUB_TOKEN` in GitHub Actions.
-- Review workflow changes before merging contributions.
-- Keep workflow permissions limited to `contents: write`.
-- Report security concerns privately rather than publishing sensitive details in a public issue.
-
-## Contributing
-
-Contributions are welcome.
-
-Useful contributions include:
-
-- Additional visual themes
-- Accessibility improvements
-- Better documentation
-- Improved error messages
-- Additional configuration options
-- Tests for configuration and SVG generation
-
-Before opening a pull request:
-
-1. Create a branch.
-2. Keep changes focused.
-3. Test the generator.
-4. Explain the reason for the change.
-5. Include screenshots for visual changes.
-
 ## License
 
 Distributed under the [MIT License](LICENSE).

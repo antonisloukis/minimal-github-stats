@@ -5,7 +5,7 @@
   viewBox="0 0 1000 340"
   role="img"
   aria-labelledby="title description"
-  data-fingerprint="c8e368c897cfb9b6e0d5ff98a0742c467965579d985850a65220d01092665f61">
+  data-fingerprint="41825770759018b726e7054c64706acc294570762d023bef80515755b05ad019">
 
   <title id="title">
     antonisloukis GitHub statistics
@@ -229,7 +229,7 @@
       y="120"
       text-anchor="end"
       class="stat-value">
-      445
+      456
     </text>
     
 
@@ -382,7 +382,7 @@
       y="204"
       text-anchor="end"
       class="stat-value">
-      516
+      528
     </text>
     
 
@@ -618,7 +618,7 @@
     y="278"
     text-anchor="middle"
     class="metric-number">
-    516
+    528
   </text>
 
   <text
@@ -745,6 +745,6 @@
     y="327"
     text-anchor="end"
     class="updated">
-    Updated 2026-08-23 01:59 UTC
+    Updated 2026-08-23 13:01 UTC
   </text>
 </svg>
